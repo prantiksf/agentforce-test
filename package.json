@@ -1,0 +1,7 @@
+{
+  "name": "agentforce-test",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Heroku Node server for static Figma card",
+  "scripts": { "start": "node server.js" }
+}

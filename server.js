@@ -1,0 +1,1 @@
+const http=require('http');const fs=require('fs');const path=require('path');const server=http.createServer((req,res)=>{const p=path.join(__dirname,'public',req.url==='/'?'index.html':req.url.replace(/^\/+/,''));fs.readFile(p,(e,d)=>{if(e){res.statusCode=404;return res.end('Not found');}res.end(d);});});server.listen(process.env.PORT||3000);

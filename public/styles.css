@@ -26,8 +26,8 @@ body { margin: 0; font-family: "SF Pro", -apple-system, system-ui, Segoe UI, Rob
 .icon-btn { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border: 1px solid #d6e2ff; background: #f1f6ff; color: var(--accent-2); border-radius: var(--radius-lg); font-size: 14px; }
 .timestamp { margin: 10px 0 12px; color: var(--muted); font-size: 16px; line-height: 24px; display: flex; align-items: center; gap: var(--space-2); }
 .link-icon { color: var(--accent-2); font-weight: 600; }
-.card__body { margin: 8px 0 18px; font-size: var(--body-size); line-height: var(--body-line); color: var(--text); letter-spacing: 0.2px; }
-.pills { display: flex; gap: 24px; margin: 8px 0 16px; }
+.card__body { margin: 12px 0 24px; font-size: var(--body-size); line-height: var(--body-line); color: var(--text); letter-spacing: 0.2px; }
+.pills { display: flex; gap: 32px; margin: 16px 0 20px; }
 .pill { height: var(--btn-h); min-width: 68px; display: inline-flex; align-items: center; justify-content: center; padding: 0 16px; border-radius: var(--radius-pill); font-size: 14px; line-height: 19px; font-weight: 700; border: 1px solid transparent; letter-spacing: 0; }
 .pill--primary { background: #066afe; color: #ffffff; border-color: #066afe; }
 .pill--outline { background: #fff; color: #066afe; border: 2px solid #d2d9e6; }
